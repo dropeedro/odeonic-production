@@ -1,0 +1,26 @@
+[{
+  "_id": {
+    "$oid": "66f5dec3679d4466bce68800"
+  },
+  "name": "Plan Básico",
+  "description": "Acceso básico a todas las funcionalidades.",
+  "price": 9.99
+},
+{
+  "_id": {
+    "$oid": "6712c79245c0ef18d3774aa0"
+  },
+  "id": null,
+  "name": "Premium Plan",
+  "price": 15.99,
+  "description": "Premium functions"
+},
+{
+  "_id": {
+    "$oid": "6712c9a06aad170df9cd501d"
+  },
+  "id": null,
+  "name": "Medium Plan",
+  "price": 10.99,
+  "description": "Medium Plan"
+}]

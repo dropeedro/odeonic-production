@@ -1,0 +1,8 @@
+venv/
+__pycache__/
+.env
+<<<<<<<<< Temporary merge branch 1
+#prueba
+=========
+.DS_Store
+>>>>>>>>> Temporary merge branch 2

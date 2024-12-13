@@ -1,0 +1,161 @@
+:root {
+  --PrimaryColor: #ffde59;
+  --PrimaryColorDark: #e5c750;
+  --SecondaryColor: #142730;
+  --SecondaryColorDark: #12232b;
+  --LightColor: #f9f9f9;
+}
+
+/* Estilos generales */
+body {
+  font-family: "Inter", "Montserrat", Helvetica;
+  background-color: #ffffff; /* Fondo claro */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  margin: 0;
+  color: var(--SecondaryColor);
+}
+
+/* Contenedor principal del formulario */
+#kc-form-wrapper {
+  background-color: #ffffff;
+  padding: 2rem;
+  border-radius: 8px;
+  max-width: 400px;
+  width: 100%;
+  border: 2px solid #ccc;
+}
+
+/* Título del header(logo) */
+#kc-header {
+  font-size: 50px;
+  font-weight: bold;
+  color: var(--PrimaryColor); /* Color púrpura para destacar */
+
+  text-align: center;
+}
+
+.loginmsg {
+  font-size: 25px;
+  font-weight: bold;
+  color: var(--SecondaryColor); /* Color púrpura para destacar */
+  text-align: left;
+}
+
+/* Contenedores de entrada */
+.kc-form-group {
+  margin-bottom: 1rem;
+}
+
+/* Etiquetas de entrada */
+.kc-label {
+  font-size: 16px;
+  color: var(--SecondaryColor);
+  margin-bottom: 0.5rem;
+  display: block;
+}
+
+/* Campos de entrada */
+.kc-input {
+  width: 100%;
+  padding: 0.5rem 0;
+  border: 2px solid #e5e7eb;
+  border-radius: 4px;
+  font-size: 14px;
+}
+
+.kc-input:focus {
+  outline: none;
+  border-color: var(--SecondaryColor);
+}
+
+/* Botón de mostrar/ocultar contraseña */
+.kc-form-password-visibility-button {
+  background: none;
+  border: none;
+  cursor: pointer;
+  font-size: 16px;
+  color: #6b7280; /* Color gris */
+  position: absolute;
+  right: 10px;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+/* Botón de envío */
+.kc-button-primary {
+  background-color: var(--SecondaryColor);
+  color: #ffffff;
+  padding: 0.75rem;
+  width: 100%;
+  border: none;
+  border-radius: 4px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.kc-button-primary:hover {
+  background-color: var(--SecondaryColorDark);
+}
+
+/* Estilos de enlace */
+.kc-form-options-wrapper a {
+  color: #4f46e5;
+  font-size: 14px;
+  text-decoration: none;
+}
+
+.kc-form-options-wrapper a:hover {
+  text-decoration: underline;
+}
+
+/* Opciones sociales */
+#kc-social-providers {
+  text-align: center;
+  margin-top: 2rem;
+}
+
+#kc-social-providers h2 {
+  font-size: 16px;
+}
+
+.kc-form-social-account-list {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+  margin-top: 1rem;
+}
+
+.kc-form-social-account-list li {
+  display: inline-block;
+}
+
+.kc-form-social-account-list a {
+  padding: 1rem;
+  border-radius: 4px;
+  background-color: #e5e7eb;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  width: 40px;
+  height: 40px;
+  color: #4b5563;
+  transition: background-color 0.3s ease;
+}
+
+.kc-form-social-account-list a:hover {
+  background-color: #d1d5db;
+}
+
+/* Mensajes de error */
+.kc-input-error-message {
+  color: #ef4444;
+  font-size: 13px;
+  margin-top: 5px;
+  display: block;
+}

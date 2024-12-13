@@ -1,0 +1,23 @@
+@import 'primeicons/primeicons.css';
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  font-family: "Inter", 'Montserrat', Helvetica;
+
+}
+
+a {
+  color: var(--primary-color);
+}
+
+body {
+  background-color: var(--secondary-color);
+  overflow-x: hidden;
+}
+
+html {
+  scroll-behavior: smooth;
+}

@@ -1,0 +1,45 @@
+{
+  "type": "Compass Connections",
+  "version": {
+    "$numberInt": "1"
+  },
+  "connections": [
+    {
+      "id": "2265086b-6b65-4387-962c-034651ba00d2",
+      "lastUsed": {
+        "$date": {
+          "$numberLong": "1728143277344"
+        }
+      },
+      "favorite": {
+        "name": "odeonic_test"
+      },
+      "savedConnectionType": "favorite",
+      "connectionOptions": {
+        "connectionString": "mongodb+srv://%3Cdb_username%3E:%3Cdb_password%3E@cluster0.n22vyn8.mongodb.net/",
+        "oidc": {
+          "serializedState": "eyJvaWRjUGx1Z2luU3RhdGVWZXJzaW9uIjowLCJzdGF0ZSI6W119"
+        }
+      }
+    },
+    {
+      "id": "d6c622e6-0b0e-41ce-b38f-130040bb30ae",
+      "lastUsed": {
+        "$date": {
+          "$numberLong": "1729136614684"
+        }
+      },
+      "favorite": {
+        "name": "odeonic_test",
+        "color": "color1"
+      },
+      "savedConnectionType": "favorite",
+      "connectionOptions": {
+        "connectionString": "mongodb+srv://pedro:1234@cluster0.n22vyn8.mongodb.net/",
+        "oidc": {
+          "serializedState": "eyJvaWRjUGx1Z2luU3RhdGVWZXJzaW9uIjowLCJzdGF0ZSI6W119"
+        }
+      }
+    }
+  ]
+}

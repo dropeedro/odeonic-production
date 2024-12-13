@@ -1,0 +1,45 @@
+[{
+  "_id": {
+    "$oid": "66f5de70679d4466bce687ff"
+  },
+  "email": "nuevo_usuario@example.com",
+  "password": "1234",
+  "oauth_provider": null,
+  "oauth_id": null
+},
+{
+  "_id": {
+    "$oid": "671091db8321e595da4c649f"
+  },
+  "email": "123@example.com",
+  "password": "tu_contraseña",
+  "oauth_provider": null,
+  "oauth_id": null
+},
+{
+  "_id": {
+    "$oid": "6710925f8321e595da4c64a0"
+  },
+  "email": "pedro.carrasco.artigas@gmail.com",
+  "password": "12345",
+  "oauth_provider": null,
+  "oauth_id": null
+},
+{
+  "_id": {
+    "$oid": "671115dd5afe443ee79e8d40"
+  },
+  "email": "usuario@example.com",
+  "password": "$2b$12$RC6quUBaQwCy12KENdcbpeXAgj5UHEAKakxoP5/ZLh3DHt/etmUqC",
+  "oauth_provider": null,
+  "oauth_id": null
+},
+{
+  "_id": {
+    "$oid": "671115f25afe443ee79e8d41"
+  },
+  "email": "oauthuser@example.com",
+  "password": null,
+  "oauth_provider": "google",
+  "oauth_id": "google-oauth-id-123"
+}]
